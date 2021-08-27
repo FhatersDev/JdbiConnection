@@ -12,7 +12,6 @@ public class Main {
     public static void main(String[] args) {
         // Suppose we want to create a program to get a person's money from their bank account
         Main main = new Main();
-        int money = main.getMoney("Martin");
 
     }
 
