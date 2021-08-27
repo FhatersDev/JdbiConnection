@@ -8,7 +8,7 @@ public class Main {
     static ConnectionSQL connection = new ConnectionSQL();
 
     public static void main(String[] args) {
-        Jdbi conn = connection.getConnection(); //obtenemos la conexion
+        Jdbi conn = connection.getConnection(); //This is the connection
 
 
     }
