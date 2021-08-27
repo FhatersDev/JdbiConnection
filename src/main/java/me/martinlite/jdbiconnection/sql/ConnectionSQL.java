@@ -31,7 +31,7 @@ public class ConnectionSQL {
     String database = "bank";
     String user = "root";
     String pass = "admin";
-    String table = "banco";
+    String table = "bank2";
     public Jdbi getConnection(){
         SQLClient client = SQLClient.newSQLClient().ip(ip).port(port).database(database).user(user).password(pass).build(); //agregamos los parametros de la base de datos
         Jdbi jdbi = client.getConnection(); //obtenemos la conexion
